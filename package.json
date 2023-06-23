@@ -1,0 +1,16 @@
+{
+  "name": "mini-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/mini-proxy": "^0.7.0",
+    "prisma": "^4.16.1"
+  }
+}
