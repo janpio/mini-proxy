@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "certs": "npx mini-proxy generate-certs",
+    "server": "npx mini-proxy server --query-engine node_modules/@prisma/engines/libquery_engine-debian-openssl-3.0.x.so.node --port 8080"
   },
   "keywords": [],
   "author": "",
